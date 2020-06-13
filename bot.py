@@ -20,7 +20,7 @@ logging.basicConfig(format=format, level=logging.INFO, filename='bot.log',
 lock = threading.Lock()
 translator = Translator()
 
-bot_url = 'https://api.telegram.org/bot1291011387:AAEDG2wqE0t4XHbe_9RurkcJHJ_Fdw99rf8/'
+bot_url = 'https://api.telegram.org/bot<token>/'
 
 chats = Chat_class()
 
